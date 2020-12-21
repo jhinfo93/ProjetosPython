@@ -19,7 +19,7 @@ def remover_iguais(lista):
     return l
 
 
-print("Temos ", len(amigos_de_tali), " Pessoas no nosso Banco")
+print("Temos ", len(amigos), " Pessoas no nosso Banco")
 
 data = "%d/%m/%Y %H:%M"
 inicio = datetime.now().strftime(data)
