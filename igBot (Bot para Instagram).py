@@ -85,5 +85,5 @@ class TesteSelenium:
                     time.sleep(3)
 
 
-botzinho = EsseEMeu("usuario", 'senha')  #Entre com seu Usuário e senha
+botzinho = TesteSelenium("usuario", 'senha')  #Entre com seu Usuário e senha
 botzinho.iniciar()
