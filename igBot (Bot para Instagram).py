@@ -24,8 +24,8 @@ print("Temos ", len(amigos), " Pessoas no nosso Banco")
 data = "%d/%m/%Y %H:%M"
 inicio = datetime.now().strftime(data)
 print("Início em: ", inicio)
-
-
+#Lembre-se sempre de passa ro caminho do driver do edge onde ele está instalado.
+PATH = r'C:\Users\jacks\Desktop\Driver_Notes\msedgedriver.exe'
 class EsseEMeu:
 
     @staticmethod
@@ -40,7 +40,7 @@ class EsseEMeu:
     def __init__(self, usuario, senha):
         self.usuario = usuario
         self.senha = senha
-        self.driver = webdriver.Edge(executable_path=r'C:\Users\jacks\Desktop\Driver_Notes\msedgedriver.exe')
+        self.driver = webdriver.Edge(executable_path=PATH)
 
     def iniciar(self):
         global cont
