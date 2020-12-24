@@ -24,9 +24,10 @@ print("Temos ", len(amigos), " Pessoas no nosso Banco")
 data = "%d/%m/%Y %H:%M"
 inicio = datetime.now().strftime(data)
 print("Início em: ", inicio)
-#Lembre-se sempre de passa ro caminho do driver do edge onde ele está instalado.
+#Lembre-se sempre de passar o caminho do driver do edge onde ele está instalado.
 PATH = r'C:\Users\jacks\Desktop\Driver_Notes\msedgedriver.exe'
-class EsseEMeu:
+
+class TesteSelenium:
 
     @staticmethod
     def digitar(frase, ondeDigitar):
@@ -84,5 +85,5 @@ class EsseEMeu:
                     time.sleep(3)
 
 
-jackson = EsseEMeu("usuario", 'senha')  #Entre com seu Usuário e senha
-jackson.iniciar()
+botzinho = EsseEMeu("usuario", 'senha')  #Entre com seu Usuário e senha
+botzinho.iniciar()
