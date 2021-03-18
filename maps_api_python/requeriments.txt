@@ -1,0 +1,2 @@
+requests == 2.25.1
+secure-smtplib == 0.1.1
